@@ -5,7 +5,9 @@ Advance System Keylogger is 100% invisible keylogger not only for users, but als
 Advance System Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
 
 ```
-A Keylogger (short for keystroke logger) is software that tracks or logs the keys struck on your keyboard, typically in a covert manner so that you don’t know that your actions are being monitored. This is usually done with malicious intent to collect your account information, credit card numbers, user names, passwords, and other private data.
+A Keylogger (short for keystroke logger) is software that tracks or logs the keys struck on your keyboard, typically in a covert
+mannerso that you don’t know that your actions are being monitored. This is usually done with malicious intent to collect
+your account information, credit card numbers, user names, passwords, and other private data.
 ```
 
 ### FEATURES OF ADVANCE KEYLOGGER
@@ -16,4 +18,8 @@ A Keylogger (short for keystroke logger) is software that tracks or logs the key
 
 - Continuous Screenshots: Video-style playback of screenshots for programs and websites selected by you. For example, watch an email as it's being typed and edited instead of just seeing the finished product (1,000 screenshots included with purchase).
 
+- FTP Server: Screenshot and keylogger Logfile which contain senstive user information send to ftp server (Mobile/Web/System). Powerful ftp server also write in Core Visual C++.
 
+- AutoStart : Keylogger has functionaility to auto execute on system bootup. It Insert entry on system startup program when it is running.
+
+- AutoCopy : Keylogger has functionaility to auto copy in %appdata%/roaming/wpdnse/ folder.
