@@ -1,8 +1,12 @@
 # Advance-System-Keylogger
 
-Stealth FTP Client designed in visual C++ and it is run in the background in stealth mode(Hidden Window). It sends the files to given FTP server IP address in (windows or mobile) given time. It is mostly used in Keylogger to send screenshot &amp; keystroke data on the server.
+Advance System Keylogger is 100% invisible keylogger not only for users, but also undetectable by antivirus software. Advance System keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
 
+Advance System Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
+
+```
 A Keylogger (short for keystroke logger) is software that tracks or logs the keys struck on your keyboard, typically in a covert manner so that you don’t know that your actions are being monitored. This is usually done with malicious intent to collect your account information, credit card numbers, user names, passwords, and other private data.
+```
 
 ### FEATURES OF ADVANCE KEYLOGGER
 
