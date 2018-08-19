@@ -1,6 +1,6 @@
-```
-#### <p color="red">DISCLAIMER : OUR TOOLS ARE FOR EDUCATIONAL PURPOSES ONLY. DON'T USE THEM FOR ILLEGAL ACTIVITIES. YOU ARE THE ONLY RESPONSABLE FOR YOUR ACTIONS! OUR TOOLS ARE OPEN SOURCE WITH NO WARRANTY AND AS ARE.</p>
-```
+
+#### DISCLAIMER : OUR TOOLS ARE FOR EDUCATIONAL PURPOSES ONLY. DON'T USE THEM FOR ILLEGAL ACTIVITIES. YOU ARE THE ONLY RESPONSABLE FOR YOUR ACTIONS! OUR TOOLS ARE OPEN SOURCE WITH NO WARRANTY AND AS ARE.
+
 # Advance-System-Keylogger
 
 Advance System Keylogger is 100% invisible keylogger not only for users, but also undetectable by antivirus software. Advance System keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
@@ -27,3 +27,5 @@ user names, passwords, and other private data.
 - AutoStart : Keylogger has functionaility to auto execute on system bootup. It Insert entry on system startup program when it is running.
 
 - AutoCopy : Keylogger has functionaility to auto copy in %appdata%/roaming/wpdnse/ folder.
+
+
