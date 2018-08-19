@@ -2,7 +2,7 @@
 
 Stealth FTP Client designed in visual C++ and it is run in the background in stealth mode(Hidden Window). It sends the files to given FTP server IP address in (windows or mobile) given time. It is mostly used in Keylogger to send screenshot &amp; keystroke data on the server.
 
-## A Keylogger (short for keystroke logger) is software that tracks or logs the keys struck on your keyboard, typically in a covert manner so that you don’t know that your actions are being monitored. This is usually done with malicious intent to collect your account information, credit card numbers, user names, passwords, and other private data.
+A Keylogger (short for keystroke logger) is software that tracks or logs the keys struck on your keyboard, typically in a covert manner so that you don’t know that your actions are being monitored. This is usually done with malicious intent to collect your account information, credit card numbers, user names, passwords, and other private data.
 
 ### FEATURES OF ADVANCE KEYLOGGER
 
