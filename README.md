@@ -1,17 +1,8 @@
 
 #### DISCLAIMER : OUR TOOLS ARE FOR EDUCATIONAL PURPOSES ONLY. DON'T USE THEM FOR ILLEGAL ACTIVITIES. YOU ARE THE ONLY RESPONSABLE FOR YOUR ACTIONS! OUR TOOLS ARE OPEN SOURCE WITH NO WARRANTY AND AS ARE.
 
-```
-     ▄█   ▄█▄    ▄████████ ▄██   ▄    ▄█        ▄██████▄     ▄██████▄     ▄██████▄     ▄████████    ▄████████ 
-    ███ ▄███▀   ███    ███ ███   ██▄ ███       ███    ███   ███    ███   ███    ███   ███    ███   ███    ███ 
-    ███▐██▀     ███    █▀  ███▄▄▄███ ███       ███    ███   ███    █▀    ███    █▀    ███    █▀    ███    ███ 
-   ▄█████▀     ▄███▄▄▄     ▀▀▀▀▀▀███ ███       ███    ███  ▄███         ▄███         ▄███▄▄▄      ▄███▄▄▄▄██▀ 
-  ▀▀█████▄    ▀▀███▀▀▀     ▄██   ███ ███       ███    ███ ▀▀███ ████▄  ▀▀███ ████▄  ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   
-    ███▐██▄     ███    █▄  ███   ███ ███       ███    ███   ███    ███   ███    ███   ███    █▄  ▀███████████ 
-    ███ ▀███▄   ███    ███ ███   ███ ███▌    ▄ ███    ███   ███    ███   ███    ███   ███    ███   ███    ███ 
-    ███   ▀█▀   ██████████  ▀█████▀  █████▄▄██  ▀██████▀    ████████▀    ████████▀    ██████████   ███    ███ 
-    ▀                                ▀                                                             ███    ███ 
-```
+<img src="brand.png">
+
 # Blackcat Keylogger
 
 Blackcat Keylogger is 100% invisible keylogger not only for users, but also undetectable by antivirus software. Blackcat keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
@@ -25,7 +16,7 @@ This is usually done with malicious intent to collect your account information, 
 user names, passwords, and other private data.
 ```
 
-### FEATURES OF Blackcat KEYLOGGER
+### FEATURES OF BLACKCAT KEYLOGGER
 
 - Discrete/Tamper Proof :By design, Advance Keylogger is undetectable and thus cannot be tampered with or removed by kids/employees (who are often tech savvy). It does not appear in the Registry, the Process List, the System Tray, the Task Manager, on the Desktop, or in the Add/Remove programs.
 
