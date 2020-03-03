@@ -3,11 +3,11 @@
 
 <img src="logon.png">
 
-# Blackcat Keylogger
+# Keylogger
 
-Blackcat Keylogger is 100% invisible keylogger not only for users, but also undetectable by antivirus software. Blackcat keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
+Keylogger is 100% invisible keylogger not only for users, but also undetectable by antivirus software. Keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
 
-Blackcat Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
+Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
 
 ```
 A Keylogger (short for keystroke logger) is software that tracks or logs the keys struck on your keyboard, 
