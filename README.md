@@ -5,7 +5,7 @@
 
 # Keylogger
 
-Keylogger is 100% invisible keylogger not only for users, but also undetectable by antivirus software. Keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
+Keylogger is a keylogger not only for users. Keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
 
 Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
 
@@ -18,7 +18,7 @@ user names, passwords, and other private data.
 
 ### FEATURES OF BLACKCAT KEYLOGGER
 
-- Discrete/Tamper Proof :By design, Advance Keylogger is undetectable and thus cannot be tampered with or removed by kids/employees .
+- Discrete/Tamper Proof :By design.
 
 - Keystrokes Typed: See every keystroke typed even if it is deleted. This keystroke logger feature provides a reader-friendly version of all keystrokes logged along with the raw keylogging activity so you can see every detail. 
 
