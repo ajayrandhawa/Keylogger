@@ -1,32 +1,32 @@
 
-#### DISCLAIMER : OUR TOOLS ARE FOR EDUCATIONAL PURPOSES ONLY. DON'T USE THEM FOR ILLEGAL ACTIVITIES. YOU ARE THE ONLY RESPONSABLE FOR YOUR ACTIONS! OUR TOOLS ARE OPEN SOURCE WITH NO WARRANTY AND AS ARE.
+#### DISCLAIMER : OUR TOOLS ARE FOR EDUCATIONAL PURPOSES ONLY. DON'T USE THEM FOR ILLEGAL ACTIVITIES. YOU ARE RESPONSIBLE FOR YOUR OWN ACTIONS! OUR TOOLS ARE OPEN SOURCE WITH NO WARRANTY.
 
 ![𝚅𝚒𝚜𝚒𝚝𝚘𝚛𝚜](https://visitor-badge.laobi.icu/badge?page_id=ajayrandhawa.Keylogger&title=Visitor )   Please Don't Forgot to Hit :star:
 
 # Keylogger
 
-Keylogger is 100% invisible keylogger not only for users. Keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
+Keylogger is 100% invisible to the anitivirus software. Keylogger Monitors all keystokes, mouse clicks and with additional feature of screenshots. It has a seperate process which continues captures screenshot of the victim's display and sends it to the FTP Server in any given time. 
 
-Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
+Keylogger is designed in Visual C++ and it runs in the background without anyone knowing whats going on(Hidden Window).
 
 ```
-A Keylogger (short for keystroke logger) is software that tracks or logs the keys struck on your keyboard, 
-typically in a covertmannerso that you don’t know that your actions are being monitored. 
+A Keylogger (short for keystroke logger) is software that tracks or logs the keys strokes on your keyboard, 
+typically in a covert manner so that you don’t know that your actions are being monitored. 
 This is usually done with malicious intent to collect your account information, credit card numbers,
 user names, passwords, and other private data.
 ```
 
 ### FEATURES OF BLACKCAT KEYLOGGER
 
-- Discrete/Tamper Proof :By design, Advance Keylogger is undetectable and thus cannot be tampered with or removed by kids/employees .
+- Discrete/Tamper Proof :By design, Advance Keylogger is undetectable and thus cannot be tampered with or removed by kids/employees.
 
 - Keystrokes Typed: See every keystroke typed even if it is deleted. This keystroke logger feature provides a reader-friendly version of all keystrokes logged along with the raw keylogging activity so you can see every detail. 
 
 - Continuous Screenshots: Video-style playback of screenshots for programs and websites selected by you. For example, watch an email as it's being typed and edited instead of just seeing the finished product (1,000 screenshots included with purchase).
 
-- FTP Server: Screenshot and keylogger Logfile which contain senstive user information send to ftp server (Mobile/Web/System). Powerful ftp server also write in Core Visual C++.
+- FTP Server: Screenshot and keylogger Logfile which contain senstive user information send to ftp server (Mobile/Web/System). Powerful FTP Server also written in Core Visual C++.
 
-- AutoStart : Keylogger has functionaility to auto execute on system bootup. It Insert entry on system startup program when it is running.
+- AutoStart : Keylogger has functionaility to auto execute on system bootup. It inserts entry on system startup program so it executes whenever the computer reboots.
 
 - AutoCopy : Keylogger has functionaility to auto copy in %appdata%/roaming/wpdnse/ folder.
 
@@ -35,16 +35,16 @@ user names, passwords, and other private data.
 1. svchost.exe (Main Keylogger Processs)
 2. rundll33.exe (Capture Screenshot & send all Log and Screenshot to FTP Server (ftp://192.168.8.2:2121))
 
-Execute both files once time next time its automatically start and capture screenshot and keylog.
+Execute both files once and from the next time around, it will automatically start to capture the screenshots and the keylogs and send it to the FTP Server.
 
-These names Given for unrecognisable in Task Manager.
+It is named "unrecognisable" in the Task Manager.
 
 ### How to Use ?
 
-1. Start FTP Server on This Ip Address 192.168.8.2:2121
-2. and Start both program and Enjoy!!!!
+1. Start the FTP Server on This Ip Address 192.168.8.2:2121
+2. Start both the programs and enjoy!
 
-### Undectable keylogger (60+ Antivirus Bypass)
+### Undetectable keylogger (60+ Antivirus Bypass)
 
 ![ScreenShot](virustotal.PNG)
 
