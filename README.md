@@ -16,7 +16,7 @@ This is usually done with malicious intent to collect your account information, 
 user names, passwords, and other private data.
 ```
 
-### FEATURES OF BLACKCAT KEYLOGGER
+### FEATURES OF KEYLOGGER
 
 - Discrete/Tamper Proof :By design, Advance Keylogger is undetectable and thus cannot be tampered with or removed by kids/employees .
 
@@ -47,6 +47,8 @@ These names Given for unrecognisable in Task Manager.
 ### Undectable keylogger (60+ Antivirus Bypass)
 
 ![ScreenShot](virustotal.PNG)
+
+Note. This is Outdated Report, May New Virus Update Detect kaylogger
 
 ### Visual C++ Source Code
 
