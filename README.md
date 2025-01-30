@@ -5,7 +5,7 @@
 
 # Keylogger
 
-Keylogger Monitors all keystokes, Mouse clicks. It has a seperate process which continues capture system screenshot and send to ftp server in given time. 
+Keylogger Monitors all keystokes, Mouse clicks. It has a separate process which continues capture system screenshot and send to ftp server in given time. 
 
 Keylogger designed in visual C++ and it is run in the background in stealth mode(Hidden Window).
 
